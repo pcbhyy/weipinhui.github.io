@@ -1,0 +1,104 @@
+body{
+	margin:0px;
+}
+#div1>img{
+	width:100%;
+}
+#div2{
+	display: flex;
+	flex-wrap: wrap;	
+}
+#div2>img{
+	width:20%;
+}
+#div3>img{
+	width:100%;
+}
+#div4{
+	display: flex;
+	justify-content: space-around;
+}
+#div4>img{
+	width:30%;
+}
+#div5>img{
+	width: 100%;
+}
+#div5>p{
+	text-align: center;
+	font-size: 14px;	
+}
+#div5>p>span{
+	background-color: #000000;
+	color:#ffffff;
+	padding:0px 2px;
+}
+#div6{
+	display: flex;
+	align-items: center;
+	margin:0px 20px;
+	justify-content: space-between;
+}
+#div6>div{
+	width:23%;
+}
+#div6>div>img{
+	width:100%;
+}
+#div6>div>p{
+	font-size: 14px;
+}
+.bg_pink {
+    background-color: rgb(222, 61, 150);
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+.color_gray {
+    color: rgb(152, 152, 159);
+}
+#div7{
+	background-color: #f3f4f6;
+	padding:14px;
+}
+#div7 img{
+	width:100%;
+}
+.card_top{
+	border-radius: 0.24rem;
+	overflow: hidden;
+}
+.card{
+	background-color: white;
+	border-radius: 6px;
+	overflow: hidden;
+	margin:10px 0px;
+}
+.card_p{
+	display:flex;
+	justify-content: space-between;
+}
+.card_p>.title{
+	width:80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 700;
+	font-size:14px;
+	margin:14px 0px 5px 10px;
+}
+.card_p>.time{
+	width:10%;
+	font-size: 12px;
+	font-weight: 400;
+	color:rgb(152, 152, 159);
+	margin:14px 10px 5px 0px;
+}
+.card_price{
+	color:rgb(88, 92, 100);
+	font-size: 12px;
+	font-weight: 400;
+	padding-bottom:14px;
+	margin-top:0px;
+	margin-left:10px;
+}
